@@ -1,0 +1,29 @@
+{
+  "name": "windows-database-monitor",
+  "version": "1.0.0",
+  "description": "Aplicação para monitoramento de banco de dados no Windows",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "install-service": "node src/install-service.js",
+    "uninstall-service": "node src/uninstall-service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "node-windows": "^1.0.0-beta.8",
+    "winston": "^3.17.0"
+  },
+  "keywords": [
+    "windows",
+    "database",
+    "monitor",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT"
+}
